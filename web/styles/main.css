@@ -1,0 +1,44 @@
+* {
+  font-family: "Century Gothic", "Avant Garde", Helvetica, sans-serif;
+}
+
+header img {
+  float: left;
+  margin-right: 2%;
+}
+
+header h1 {
+  font-style: italic;
+  color: orange;
+  text-shadow: 2px 2px black;
+}
+
+article h2 {
+  font-size: 170%;
+}
+
+article h2::first-letter {
+  font-size: 200%;
+}
+
+.content {
+  font-size: 150%
+}
+
+a {
+  color: orange;
+  font-weight: bold;
+}
+
+a:hover {
+  color: green;
+}
+
+li {
+  margin-bottom: 0.75%;
+}
+
+footer {
+  font-size: 75%;
+  text-align: center;
+}
