@@ -1,31 +1,59 @@
 * {
-  font-family: "Century Gothic", "Avant Garde", Helvetica, sans-serif;
+  font-family: 'Century Gothic', 'Avant Garde', Helvetica, sans-serif;
 }
+
+html {
+  background-image: url(../images/bats.gif);
+}
+
+/* Body */
 
 body {
   background: white;
   border-width: 3px;
   border-style: solid;
   border-color: black;
-  box-shadow: 10px 10px 5px #000;
+  box-shadow: 0 0 20px 5px black;
   margin: 0 auto;
   width: 800px;
 }
 
-header img {
+/* Header */
+
+header {
+  background: linear-gradient(45deg, white, orange 75%, black);
+  border-bottom: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+
+ header img {
   float: left;
+  margin-left: 2%;
   margin-right: 2%;
+  margin-top: 2%;
 }
 
 header h1 {
-  color: orange;
-  font-style: italic;
-  text-shadow: 2px 2px black;
+  padding-top: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  margin-top: 10px;
+}
+
+/* Main */
+
+main {
+  padding: 0% 2%;
 }
 
 article h2 {
   font-size: 170%;
   line-height: 50%;
+  margin-bottom: 10px;
 }
 
 article h2::first-letter {
@@ -35,6 +63,7 @@ article h2::first-letter {
 .content {
   font-size: 150%;
   line-height: 50%;
+  margin-bottom: 10px;
 }
 
 a {
@@ -50,7 +79,16 @@ li {
   margin-bottom: 0.75%;
 }
 
+/* Footer */
+
 footer {
+  background: linear-gradient(45deg, black, orange 25%, white);
+  border-top: 1px;
+  border-top-color: black;
+  border-top-style: solid;
   font-size: 75%;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 2px;
   text-align: center;
 }
