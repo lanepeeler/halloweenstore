@@ -10,9 +10,7 @@ html {
 
 body {
   background: white;
-  border-color: black;
-  border-style: solid;
-  border-width: 3px;
+  border: 3px solid black;
   box-shadow: 0 0 20px 5px black;
   margin: 0 auto;
   width: 800px;
@@ -22,9 +20,7 @@ body {
 
 header {
   background: linear-gradient(45deg, white, orange 75%, black);
-  border-bottom: 1px;
-  border-bottom-color: black;
-  border-bottom-style: solid;
+  border-bottom: 2px solid black;
 }
 
  header img {
@@ -46,12 +42,78 @@ header h2 {
 
 main {
   clear: both;
-  padding: 0% 1%;
+  /*padding: 0 1%;*/
+}
+
+.h-menu ul {
+  background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.h-menu li {
+  float: left;
+  margin: 0;
+}
+
+.h-menu li a {
+  color: white;
+  background-color: black;
+  display: block;
+  font-weight: normal;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  width: 144px;
+}
+
+.h-menu li a.on {
+  color: orange;
+}
+
+.h-menu li a:hover {
+  color: black;
+  background-color: grey;
 }
 
 .sidebar {
   float: left;
   width: 160px;
+}
+
+.sidebar ul {
+  /*background-color: orange;*/
+  list-style-type: none;
+  padding-left: 15px;
+/*  margin: 0;
+  padding: 0;*/
+}
+
+.sidebar li {
+  background-color: orange;
+  border: 3px solid black;
+  /*display: block;*/
+  margin-bottom: 4%;
+  padding: 5px;
+  width: 144px;
+}
+
+.sidebar li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  width: 144px;
+  /*height: 20px;*/
+}
+
+.sidebar li a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+#cat {
+  text-decoration: none;
 }
 
 .content {
@@ -100,9 +162,9 @@ li {
 
 footer {
   background: linear-gradient(45deg, black, orange 25%, white);
-  border-top: 1px;
-  border-top-color: black;
-  border-top-style: solid;
+  border-top: 1px solid black;
+/*  border-top-color: black;
+  border-top-style: solid;*/
   clear: both;
   font-size: 75%;
   margin-bottom: 0;
