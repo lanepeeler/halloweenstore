@@ -45,19 +45,19 @@ main {
   /*padding: 0 1%;*/
 }
 
-.h-menu ul {
+#h-menu ul {
   background-color: black;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.h-menu li {
+#h-menu li {
   float: left;
   margin: 0;
 }
 
-.h-menu li a {
+#h-menu li a {
   color: white;
   background-color: black;
   display: block;
@@ -68,26 +68,26 @@ main {
   width: 144px;
 }
 
-.h-menu li a.on {
+#h-menu li a.on {
   color: orange;
 }
 
-.h-menu li a:hover {
+#h-menu li a:hover {
   color: black;
   background-color: grey;
 }
 
-.sidebar {
+#l-sidebar {
   float: left;
   width: 160px;
 }
 
-.sidebar ul {
+#l-sidebar ul {
   list-style-type: none;
   padding-left: 15px;
 }
 
-.sidebar li {
+#l-sidebar li {
   background-color: orange;
   border: 3px solid black;
   /*display: block;*/
@@ -96,14 +96,14 @@ main {
   width: 144px;
 }
 
-.sidebar li a {
+#l-sidebar li a {
   color: black;
   display: block;
   text-decoration: none;
   width: 144px;
 }
 
-.sidebar li a:hover {
+#l-sidebar li a:hover {
   color: green;
   text-decoration: underline;
 }

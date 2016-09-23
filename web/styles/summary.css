@@ -67,6 +67,10 @@ main {
   width: 144px;
 }
 
+#h-menu li a.on {
+  color: orange;
+}
+
 #h-menu li a:hover {
   color: black;
   background-color: grey;
@@ -74,7 +78,7 @@ main {
 
 #l-sidebar {
   float: left;
-  width: 160px;
+  width: 175px;
 }
 
 #l-sidebar ul {
@@ -85,7 +89,6 @@ main {
 #l-sidebar li {
   background-color: orange;
   border: 3px solid black;
-  font-weight: bold;
   margin-bottom: 4%;
   padding: 5px;
   width: 144px;
@@ -103,58 +106,46 @@ main {
   text-decoration: underline;
 }
 
-#r-sidebar {
-  background-color: #F5DEB3;
-  float: right;
-  width: 210px;
-}
-
-#r-sidebar h3 {
-  font-size: 100%;
-  margin: 0 15px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
-#r-sidebar ul {
-  list-style-type: none;
-  margin-top: 5px;
-  padding-left: 0;
-}
-
-#r-sidebar figure {
-  margin-left: 20px;
-}
-
-#r-sidebar a {
+a {
   color: black;
-  font-size: 15px;
 }
 
-#r-sidebar a:hover, a:focus {
+a:hover {
   color: green;
 }
 
-.content {
+figure {
   float: left;
-  margin-left: 32px;
-  width: 390px;
+  margin: 0;
+  margin-left: 15px;
+  width: 480px;
 }
 
-.content h2 {
-  font-size: 170%;
-  margin: 10px 0;
+figcaption {
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
 }
 
-.content img {
-  float: left;
+table {
+  border-collapse: collapse;
+  margin: 10px auto;
+  width: 100%;
 }
 
-.content p {
-  float: left;
-  margin-top: 0;
-  padding-left: 15px;
-  width: 200px;
+.category {
+  text-align: left;
+  vertical-align: top;
+}
+
+.descrip {
+  text-align: left;
+}
+
+.price {
+  background-color: #F5DEB3;
+  text-align: right;
 }
 
 /* Footer */
