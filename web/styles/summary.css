@@ -97,6 +97,7 @@ main {
 #l-sidebar li a {
   color: black;
   display: block;
+  font-weight: bold;
   text-decoration: none;
   width: 144px;
 }
