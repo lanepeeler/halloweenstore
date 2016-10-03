@@ -124,12 +124,9 @@ main {
 .content input {
   width: 50%;
   margin-left: 30px;
-/*  display: inline-block;
-  text-align: left;*/
 }
 
 #submit {
-  /*margin: 0;*/
   width: auto;
   background-color: orange;
   border: 1px solid black;
