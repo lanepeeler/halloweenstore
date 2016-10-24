@@ -34,12 +34,28 @@
     </nav>
     <article class="content">
       <h2>Please enter the following information</h2>
-      <form action="subscribe.html">
-        <p><label>First Name:</label><input name="first-name" type="text" autofocus required></p>
-        <p><label>Last Name:</label><input name="last-name" type="text" required></p>
-        <p><label>Email:</label><input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required></p>
-        <p><label>Zip Code:</label><input name="zip-code" type="text" pattern="^[0-9]{5,6}$" placeholder="Optional: enter your 5- or 6-digit zip code"></p>
-        <p><label></label><input type="submit" value="Subscribe" id="submit"></p>
+      <form action="goelon" method="post">
+        <input type="hidden" name="action" value="add">
+        <p>
+          <label>First Name:</label>
+          <input name="first-name" type="text" autofocus required>
+        </p>
+        <p>
+          <label>Last Name:</label>
+          <input name="last-name" type="text" required>
+        </p>
+        <p>
+          <label>Email:</label>
+          <input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+        </p>
+        <p>
+          <label>Zip Code:</label>
+          <input name="zip-code" type="text" pattern="^[0-9]{5,6}$" placeholder="Optional: enter your 5- or 6-digit zip code">
+        </p>
+        <p>
+          <label>&nbsp;</label>
+          <input type="submit" value="Subscribe" id="submit">
+        </p>
       </form>
     </article>
   </main>
